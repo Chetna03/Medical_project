@@ -1,0 +1,183 @@
+html, body, div,
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer,header,nav,section { 
+    display:block;
+}
+/*
+nav ul{
+	list-style: none;
+}
+
+header{
+	margin: 0px;
+	padding: 0px;
+	background-color: #09d635 
+}
+
+header .logo{
+	color: #111;
+	font-family: '';
+	font-style: 24px;
+	font-weight: 900;
+	display: inline;
+	padding: 0px;
+	width: 10%;
+	border: 1px solid black;
+}
+
+nav ul li{
+	display: inline-block;
+	
+	list-style: none;
+	border: 1px solid black;
+}
+
+*/
+
+
+
+header{
+    background-color: #09d635 ;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+header .trio{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  /*  padding: 20px 0;*/
+}
+
+header nav ul{
+     margin: 0 auto;
+     display: block;
+     width: fit-content;
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a{
+     font-family: '', serif;
+    font-size: 18px;
+    color: #e9f5eb;
+    text-decoration: none;
+    
+}
+
+
+.wrapper{
+    width: 60%;
+    height: 90vh;
+    margin: 0px auto;
+    background-color: #ffd885;
+    background-position: 53% 0%;
+    background-size: cover;
+    display: table;
+}
+
+.wrapper h2{
+    font-family: 'Times New Roman', serif;
+    color: Black;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #grey;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.img-cont{
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+
+
+.name{
+	
+	font-size: 20px;
+	font-family: Arial;
+	padding: 10px; 
+}
+
+
+.name h4{
+	display: inline;
+	padding-left: 30px;
+}
+
+.name p{
+	display: inline;
+	padding-left: 30px;
+}
+
+.update{
+	float: bottom-right;
+}
+
+@media only screen and (min-width: 1000px){
+
+header{
+	padding: 0px;
+}
+
+   header .logo{
+    margin: 21px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 50px 0px 40px;
+    
+    float: left;
+    font-size: 30px;
+    color: black;
+}
+
+header nav ul{
+     margin: 10px;
+     float: left;
+    
+    }
+
+header nav ul li a{
+    line-height: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;   
+    
+}
+
+}
